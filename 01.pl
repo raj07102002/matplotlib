@@ -27,4 +27,22 @@
 # sns.despine()
 
 # plt.tight_layout()
+# plt.show() 
+
+# Q.3 
+
+# import matplotlib.pyplot as plt
+
+# # Example data: test scores
+# data = [40, 50, 60, 60, 70, 70, 70, 80, 80, 90, 100, 100, 100, 100]
+
+# # Create histogram
+# plt.hist(data, bins=6, color='skyblue', edgecolor='black')
+
+# # Add labels and title
+# plt.xlabel("Scores")
+# plt.ylabel("Number of Students")
+# plt.title("Score Distribution")
+
+# # Show the plot
 # plt.show()
