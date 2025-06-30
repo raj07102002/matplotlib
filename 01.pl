@@ -45,4 +45,16 @@
 # plt.title("Score Distribution")
 
 # # Show the plot
+# plt.show() 
+
+Q.4 
+
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# import pandas as pd
+# Brand=['Garmin','Apple','xiaomi','Amazfit'] 
+# Screen_Size=[1.50,1.12,1.47,1.02]
+# plt.pie(Screen_Size,labels=Brand,autopct='%1.1f%%',startangle=90)
+# plt.title("Pie Chart")
+# plt.axis('equal')
 # plt.show()
