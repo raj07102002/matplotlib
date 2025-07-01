@@ -47,7 +47,7 @@
 # # Show the plot
 # plt.show() 
 
-Q.4 
+# Q.4 
 
 # import matplotlib.pyplot as plt
 # import seaborn as sns
@@ -57,4 +57,11 @@ Q.4
 # plt.pie(Screen_Size,labels=Brand,autopct='%1.1f%%',startangle=90)
 # plt.title("Pie Chart")
 # plt.axis('equal')
-# plt.show()
+# plt.show() 
+
+# Q.5 
+
+# import pandas as pd
+# import numpy as np 
+# import matplotlib.pyplot as plt 
+# import seaborn as sns 
