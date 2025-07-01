@@ -77,4 +77,14 @@
 #     plt.title(f'Distribution of {column}')
 #     plt.xlabel(column)
 #     plt.ylabel("Frequency")
+#     plt.show() 
+
+# selected_features =['median_income','total_rooms', 'housing_median_age']
+
+# for feature in selected_features:
+#     plt.figure(figsize=(10,6))
+#     sns.scatterplot(data=ghar, x=feature, y='median_house_value')
+#     plt.title(f'Scatter plot of {feature} vs median_house_value')
+#     plt.xlabel(feature)
+#     plt.ylabel('median_house_value')
 #     plt.show()
