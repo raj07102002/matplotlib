@@ -77,7 +77,9 @@
 #     plt.title(f'Distribution of {column}')
 #     plt.xlabel(column)
 #     plt.ylabel("Frequency")
-#     plt.show() 
+#     plt.show()  
+
+# Q.6
 
 # selected_features =['median_income','total_rooms', 'housing_median_age']
 
@@ -87,4 +89,12 @@
 #     plt.title(f'Scatter plot of {feature} vs median_house_value')
 #     plt.xlabel(feature)
 #     plt.ylabel('median_house_value')
-#     plt.show()
+#     plt.show() 
+
+# Q.7 
+
+# plt.figure(figsize=(12,8))
+# correlation_matrix = ghar.select_dtypes(include=['float64', 'int64']).corr()
+# sns.heatmap(correlation_matrix,annot=True,cmap='coolwarm',fmt=".5f")
+# plt.title("correlation Matrix of Numerical Features")
+# plt.show()
