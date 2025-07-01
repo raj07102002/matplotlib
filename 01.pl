@@ -69,4 +69,12 @@
 # pd.read_csv('C:/Python Pandas/california_housing_test.csv') 
 
 # ghar=pd.read_csv('C:/Python Pandas/california_housing_test.csv')
-# ghar
+# ghar 
+# a=ghar.select_dtypes(include = ['float64','int64']).columns
+# for column in a: 
+#     plt.figure(figsize=(10,6))
+#     sns.histplot(data=ghar, x=column, bins=50, kde=True)
+#     plt.title(f'Distribution of {column}')
+#     plt.xlabel(column)
+#     plt.ylabel("Frequency")
+#     plt.show()
