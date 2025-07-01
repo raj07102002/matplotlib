@@ -65,3 +65,5 @@
 # import numpy as np 
 # import matplotlib.pyplot as plt 
 # import seaborn as sns 
+
+# pd.read_csv('C:/Python Pandas/california_housing_test.csv')
