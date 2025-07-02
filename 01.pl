@@ -116,4 +116,14 @@
 # plt.grid(True)
 # plt.xlabel("Brand")
 # plt.ylabel('Screen_Size') 
-# plt.show
+# plt.show 
+
+# Q.9 
+
+# Brand=['Garmin','Apple','xiaomi','Amazfit'] 
+# Screen_Size=[1.50,1.12,1.47,1.02]
+# plt.bar(Brand,Screen_Size,color="violet")
+# plt.grid(True)
+# plt.xlabel("Brand")
+# plt.ylabel('Screen_Size') 
+# plt.show()
