@@ -97,4 +97,13 @@
 # correlation_matrix = ghar.select_dtypes(include=['float64', 'int64']).corr()
 # sns.heatmap(correlation_matrix,annot=True,cmap='coolwarm',fmt=".5f")
 # plt.title("correlation Matrix of Numerical Features")
+# plt.show() 
+
+# Q.8 
+
+# plt.scatter(Brand,Screen_Size)
+# plt.title("SCATTER PLOT")
+# plt.xlabel('Brand')
+# plt.ylabel('Screen_Size')
+# plt.grid(True)
 # plt.show()
