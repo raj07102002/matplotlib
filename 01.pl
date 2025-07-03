@@ -126,4 +126,13 @@
 # plt.grid(True)
 # plt.xlabel("Brand")
 # plt.ylabel('Screen_Size') 
+# plt.show() 
+
+# Q.10 
+
+# plt.figure(figsize=(12,8))
+# sns.violinplot(data=df, x='house_value_category', y='total_rooms', order=df['house_value_category'].value_counts().index,palette='viridis')
+# plt.title("Distribution of Total room by Room") 
+# plt.xlabel('Median House Value category')
+# plt.ylabel('House income')
 # plt.show()
